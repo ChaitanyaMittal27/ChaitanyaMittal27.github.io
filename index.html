@@ -1,186 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
-    <style>
-        body {
-            font-family: 'Courier New', Courier, monospace; /* Code-like font */
-            background-color: #2e2e2e; /* Dark gray background */
-            color: #f1f1f1; /* Light text color for better contrast */
-            margin: 20px;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        header h1 {
-            font-size: 36px;
-            color: #00ff7f; /* Bright green title for contrast */
-            text-transform: uppercase;
-            border-bottom: 2px solid #00ff7f;
-            display: inline-block;
-            padding-bottom: 10px;
-        }
-
-        nav {
-            margin-bottom: 40px;
-            /*text-align: center;*/
-        }
-
-        nav h2 {
-            font-size: 24px;
-            color: #00ff7f;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            /*text-align: center;*/
-        }
-
-        nav ul li {
-            margin-bottom: 10px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            font-size: 18px;
-            color: #00ff7f;
-            font-weight: bold;
-            transition: color 0.3s ease;
-        }
-
-        nav ul li a:hover {
-            color: #ff6f61; /* Changes to a bright red on hover */
-        }
-
-        section {
-            margin-bottom: 40px;
-        }
-
-        section h2 {
-            font-size: 28px;
-            color: #00ff7f;
-            margin-bottom: 20px;
-            border-bottom: 2px solid #00ff7f;
-            padding-bottom: 5px;
-        }
-
-        p, ol, ul {
-            font-family: 'Courier New', Courier, monospace; /* Code-like font for all text */
-            background-color: #1f1f1f; /* Darker gray background for the text sections */
-            padding: 10px;
-            border-radius: 5px;
-            color: #f1f1f1; /* Light text color */
-        }
-
-        #me img {
-            width: 300px;
-            height: 300px;
-            border-radius: 50%;
-            display: block;
-            margin: 20px auto;
-            border: 3px solid #00ff7f; /* Bright green border for contrast */
-        }
-
-        #me h3 {
-            text-align: center;
-            font-size: 24px;
-            color: #00ff7f;
-        }
-
-        .educationimages img,
-        .interestimages img {
-            width: 49%;
-            height: auto;
-            display: inline-block;
-            margin-right: 1%;
-            border: 2px solid #f1f1f1; /* Light border for image */
-            border-radius: 5px;
-        }
-
-        .educationimages img:last-child,
-        .interestimages img:last-child {
-            margin-right: 0;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            font-size: 0.9em;
-            color: #f1f1f1;
-        }
-
-    </style>
+    <title>Chaitanya Mittal's Portfolio</title>
 </head>
+
 <body>
-<header>
-    <h1>My Profile</h1>
-</header>
-<nav>
-    <h2>Table of Contents</h2>
-    <ul>
-        <li><a href="#me">1. Me</a></li>
-        <li><a href="#education">2. Education</a></li>
-        <li><a href="#job-history">3. Job History</a></li>
-        <li><a href="#interests">4. Interests</a></li>
-    </ul>
-</nav>
 
-<section id="me">
-    <h2>1. Me</h2>
-    <img src="profilephoto.jpg" alt="My Photo">
-    <h3>Chaitanya Mittal</h3>
-</section>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
 
-<section id="education">
-    <h2>2. Education</h2>
-    <ul>
-        <li>I am a second-year Computer Science student at Simon Fraser University, where I am learning about software development, algorithms, and AI systems.</li>
-        <li>I did my high school at DPSMIS Doha.</li>
-    </ul>
-    <div class="educationimages">
-        <img src="dpsmisdoha.jpg" alt="My School">
-        <img src="sfu.jpg" alt="My University">
-    </div>
-</section>
+    <!-- Navigation / Table of Contents -->
+    <nav>
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#bio">1. Bio</a></li>
+            <li><a href="#projects">2. Projects</a></li>
+            <li><a href="#skills">3. Skills</a></li>
+            <li><a href="#education">4. Education</a></li>
+            <li><a href="#experience">5. Work & Volunteer Experience</a></li>
+            <li><a href="#interests">6. Interests & Hobbies</a></li>
+            <li><a href="#contact">7. Contact & Links</a></li>
+        </ul>
+    </nav>
 
-<section id="job-history">
-    <h2>3. Job History and Volunteer</h2>
-    <p>I have experience working on call centre jobs and various projects, including a hackathon where I created an expenditure tracking app and a Water Purification Inventory Management system.</p>
-    <ul>
-        <li>Call Centre SFU</li>
-        <li>CS Peer Tutor</li>
-        <li>Math Peer Tutor</li>
-    </ul>
-</section>
+    <!-- Placeholder for Bio Section -->
+    <section id="bio">
+        <h2>1. Bio</h2>
+        <!-- Content to be added later -->
+    </section>
 
-<section id="interests">
-    <h2>4. Interests</h2>
-    <p>I have a deep passion for video games, military planes, tanks, and AI development.</p>
-    <p>I also enjoy solving puzzles and exploring new technologies in my free time.</p>
-    <p>I don't listen to songs much... but am always open to recommendations!</p>
-    <p>Places I have been to:</p>
-    <ol>
-        <li>India</li>
-        <li>Qatar</li>
-        <li>USA</li>
-        <li>Canada</li>
-        <li>Georgia</li>
-    </ol>
-    <div class="interestimages">
-        <img src="war thunder.jpg" alt="My Fav Game">
-        <img src="sherlock.jpg" alt="My Fav Novel">
-    </div>
-</section>
+    <!-- Placeholder for Projects Section -->
+    <section id="projects">
+        <h2>2. Projects</h2>
+        <!-- Content to be added later -->
+    </section>
 
-<footer>
-    <p>&copy; 2024 Chaitanya Mittal.</p>
-</footer>
+    <!-- Placeholder for Skills Section -->
+    <section id="skills">
+        <h2>3. Skills</h2>
+        <!-- Content to be added later -->
+    </section>
+
+    <!-- Placeholder for Education Section -->
+    <section id="education">
+        <h2>4. Education</h2>
+        <!-- Content to be added later -->
+    </section>
+
+    <!-- Placeholder for Work & Volunteer Experience Section -->
+    <section id="experience">
+        <h2>5. Work & Volunteer Experience</h2>
+        <!-- Content to be added later -->
+    </section>
+
+    <!-- Placeholder for Interests & Hobbies Section -->
+    <section id="interests">
+        <h2>6. Interests & Hobbies</h2>
+        <!-- Content to be added later -->
+    </section>
+
+    <!-- Placeholder for Contact & Links Section -->
+    <section id="contact">
+        <h2>7. Contact & Links</h2>
+        <!-- Content to be added later -->
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Chaitanya Mittal. All Rights Reserved.</p>
+    </footer>
 
 </body>
+
 </html>
