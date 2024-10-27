@@ -5,6 +5,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    padding-bottom: 50px;
 }
 
 /* Header */
@@ -55,10 +56,9 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer */
 footer {
     text-align: center;
-    padding: 5px; /* Thinner footer */
+    padding: 5px;
     background-color: #4CAF50;
     color: white;
     position: fixed;
@@ -76,16 +76,18 @@ footer {
     border: 3px solid #4CAF50;
 }
 
-/* Education Images */
 .education-images img {
-    width: 150px; /* Increased size */
+    width: 150px;
     height: auto;
     margin: 10px;
 }
 
-/* Interest Images */
 .interest-images img {
-    width: 200px; /* Increased size */
+    width: 200px;
     height: auto;
     margin: 10px;
+}
+
+html {
+    scroll-padding-top: 60px;
 }
